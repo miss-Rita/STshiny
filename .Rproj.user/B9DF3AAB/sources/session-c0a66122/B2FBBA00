@@ -1,0 +1,27 @@
+{
+    "id": "B2FBBA00",
+    "path": "~/jierhuang/shiny/ST_text/brain_demo.R",
+    "project_path": "ST_text/brain_demo.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1742611050632.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "15,0",
+        "scrollLine": "0",
+        "disableDependencyDiscovery": "1"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1744811587,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1744811587152,
+    "read_only": false,
+    "read_only_alternatives": []
+}
