@@ -9,7 +9,7 @@ We provide two ways to use STshiny:
 
 No need to install a local environment, just open the link to use it!
 
-https://xulabgdpu.npolar.top/STshiny.
+https://xulabgdpu.cpolar.top/STshiny/
 
 ## STshiny container deployment instructions
 ### Project Introduction
