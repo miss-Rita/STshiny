@@ -1,3 +1,7 @@
+STshiny is an interactive platform built on R/Shiny for visualization and analysis of spatial transcriptome data. The platform integrates standardization, dimensionality reduction clustering, marker gene identification, GO/KEGG enrichment, cell annotation, scRNA-seq integration and other functions. It is easy to operate and has rich visualization results.
+
+No need to install a local environment, just open the link to use it!(https://xulabgdpu.npolar.top/STshiny.)
+
 # Data file description
 
 If you run the sample data, you need to download the following data files. Please download them from the following links and place them in the root directory of the project:
