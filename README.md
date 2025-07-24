@@ -18,6 +18,25 @@ https://xulabgdpu.cpolar.top/STshiny/
 - [Apptainer](https://apptainer.org/docs/user/main/quick_start.html) 1.0 or higher
 - Conda environment (already included in the container)
 
+If you do not have administrator privileges (cannot use sudo), you can install Apptainer in user mode to run the container:
+```bash
+# Download and unzip the source code
+wget https://github.com/apptainer/apptainer/releases/download/v1.2.5/apptainer-1.2.5.tar.gz
+tar -xzf apptainer-1.2.5.tar.gz
+cd apptainer-1.2.5
+
+#Configure compilation to the user directory
+./mconfig --prefix=$HOME/apptainer
+cd builddir
+make -j4
+make install
+```
+Add environment variables (can be written to .bashrc or .zshrc):
+```bash
+export PATH="$HOME/apptainer/bin:$PATH"
+export APPTAINER_CACHEDIR=$HOME/.apptainer/cache
+```
+
 ### Usage steps
 
 #### 1. Download the container
@@ -75,7 +94,7 @@ When starting the application, the browser will not be opened automatically by d
 
 # Data file description
 
-If you run the sample data, you need to download the following data files. Please download them from the following links and place them in the root directory of the project:
+If you want to download the code for this project locally and run it using RStudio, there are some sample data available here. Please download them and place them in the main directory of the project so that you can run the sample code smoothly.
 
 [Click here to download all_markers.rds](https://drive.google.com/file/d/1MnQSfd8r8uHKpd7MtJUiezw93l161RcU/view?usp=drive_link)
 
