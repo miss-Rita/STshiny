@@ -39,7 +39,7 @@ Check whether the installation was successful:
 apptainer --version
 ```
 ### Obtain the container and script
-#### 2.1 Place [STshiny.tar.gz](https://drive.google.com/file/d/1QidApVHVUPPlZHM3cLIUu4Ryy3RHmM0J/view?usp=drive_link), [STshiny.sif](https://drive.google.com/file/d/1hcl4qEL8goQ9wjVwmSJTE34W75vkg3jj/view?usp=drive_link), and [run-STshiny.sh](https://drive.google.com/file/d/1ENhTAPqjS9MPtsz6FCDr6IfKvHfftraz/view?usp=drive_link) in the same directory, for example:
+#### 2.1 Place [STshiny.tar.gz](https://drive.google.com/file/d/1QidApVHVUPPlZHM3cLIUu4Ryy3RHmM0J/view?usp=drive_link), [STshiny.sif](https://drive.google.com/file/d/1hcl4qEL8goQ9wjVwmSJTE34W75vkg3jj/view?usp=drive_link), and [run_STshiny.sh](https://drive.google.com/file/d/1ENhTAPqjS9MPtsz6FCDr6IfKvHfftraz/view?usp=drive_link) in the same directory, for example:
 ```bash
 D:/STshiny/
 ```
@@ -47,17 +47,17 @@ D:/STshiny/
 ```bash
 cp /mnt/d/STshiny/STshiny.sif ~/
 cp /mnt/d/STshiny/STshiny.tar.gz ~/
-cp /mnt/d/STshiny/run-STshiny.sh ~/
+cp /mnt/d/STshiny/run_STshiny.sh ~/
 cd ~
 ```
 ### Running a Shiny App
 #### 3.1 Add execution permissions to the script (only required for the first run):
 ```bash
-chmod +x run-STshiny.sh
+chmod +x run_STshiny.sh
 ```
 #### 3.2 Start the application:
 ```bash
-./run-STshiny.sh
+./run_STshiny.sh
 ```
 During the running process, the script will automatically call Apptainer to start STshiny.sif and run Shiny.
 
